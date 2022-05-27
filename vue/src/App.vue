@@ -9,6 +9,14 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
+<script>
+  export default {
+    computed: {
+      
+    }
+  }
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
